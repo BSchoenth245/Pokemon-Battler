@@ -1,6 +1,10 @@
 #include "FUNCTIONS.H"
 #include "PokemonArray.cpp"
+/*
 
+    Main file that controls and dictates the order of operations
+
+*/
 int main(){
     int playerChoice;
     int attackChoice;

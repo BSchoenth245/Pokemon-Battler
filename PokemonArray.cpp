@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
+/*
 
+Contains the array of all loaded pokemon and their stats
+
+*/
 main(){
 
     string pokemonArray[2][9] = {
