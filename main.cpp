@@ -1,16 +1,12 @@
 #include "FUNCTIONS.H"
-
+#include "PokemonArray.cpp"
 
 int main(){
     int playerChoice;
     int attackChoice;
     string player1Active;
     string player2Active;
-    string pokemonArray[2][9] = {
-        //name, type 1, type 2(if applicable), hp, attack, defense, sp att, sp def, speed
-        {"Venesaur", "grass", "poison", "80", "82", "83", "100", "100", "80"},
-        {"Charizard", "fire", "flying", "78", "84", "78", "109", "85", "100"}
-    };
+    extern string pokemonArray[2][9];
     string pokemonAttackArray[2][5] = {
         //name, type, move type(0=physical,1=special,2=status), power, accuracy
         {"Vine Whip", "grass", "0", "45", "100"},
