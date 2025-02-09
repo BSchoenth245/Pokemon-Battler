@@ -7,6 +7,9 @@
 #include <ctime>
 using namespace std;
 
+extern string pokemonArray[2][9];
+extern string pokemonAttackArray[2][5];
+
 double round(double);
 
 double effectCalc(string, string, string);
