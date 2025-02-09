@@ -1,2 +1,2 @@
 # Pokemon-Battler
-An attempt to make a law complexity pokemon battler
+An attempt to make a low complexity pokemon battler
