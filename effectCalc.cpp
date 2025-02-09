@@ -15,26 +15,24 @@ double effectCalc(string attType, string defT1, string defT2){
 
     if(attType == "grass"){
         //If the defending pokemon has these types, the attack is effective and has its output multiplied by 2
-        if(defTypes.find("water") != std::string::npos || defTypes.find("ground") != std::string::npos || defTypes.find("rock") != std::string::npos){
+        if(defT1 == "water" || defT1 == "ground" || defT1 == "rock"){
             typeEffect *= 2;
         }
         //If the defending pokemon has these types, the attack is effective and has its output multiplied by 0.5
-        else if(defTypes.find("fire") != std::string::npos || defTypes.find("grass") != std::string::npos || defTypes.find("poison") != std::string::npos ||
-        defTypes.find("flying") != std::string::npos || defTypes.find("bug") != std::string::npos || defTypes.find("dragon") != std::string::npos ||
-        defTypes.find("steel") != std::string::npos){
+        else if(defT1 == "fire" || defT1 == "grass" || defT1 == "poison" || defT1 == "flying" || defT1 == "bug" ||
+            defT1 == "dragon" || defT1 == "steel"){
             typeEffect /= 2;
         }
         else{}
         //Tests to see if the defending pokemon has a second type, or is a mono-type
         if(defT2 != ""){
             //If the defending pokemon has these types, the attack is effective and has its output multiplied by 2
-            if(defTypes.find("water") != std::string::npos || defTypes.find("ground") != std::string::npos || defTypes.find("rock") != std::string::npos){
+            if(defT1 == "water" || defT1 == "ground" || defT1 == "rock"){
                 typeEffect *= 2;
             }
             //If the defending pokemon has these types, the attack is effective and has its output multiplied by 0.5
-            else if(defTypes.find("fire") != std::string::npos || defTypes.find("grass") != std::string::npos || defTypes.find("poison") != std::string::npos ||
-            defTypes.find("flying") != std::string::npos || defTypes.find("bug") != std::string::npos || defTypes.find("dragon") != std::string::npos ||
-            defTypes.find("steel") != std::string::npos){
+            else if(defT1 == "fire" || defT1 == "grass" || defT1 == "poison" || defT1 == "flying" || defT1 == "bug" ||
+                defT1 == "dragon" || defT1 == "steel"){
                 typeEffect /= 2;
             }
             else{}
@@ -47,29 +45,25 @@ double effectCalc(string attType, string defT1, string defT2){
 
     else if(attType == "fire"){
         //If the defending pokemon has these types, the attack is effective and has its output multiplied by 2
-        if(defTypes.find("grass") != std::string::npos || defTypes.find("ice") != std::string::npos || defTypes.find("bug") != std::string::npos ||
-        defTypes.find("steel") != std::string::npos){
+        if(defT2 == "grass" || defT2 == "ice" || defT2 == "bug" || defT2 == "steel"){
             typeEffect *= 2;
         }
         //If the defending pokemon has these types, the attack is effective and has its output multiplied by 0.5
-        else if(defTypes.find("fire") != std::string::npos || defTypes.find("water") != std::string::npos || defTypes.find("rock") != std::string::npos ||
-        defTypes.find("dragon") != std::string::npos){
+        else if(defT2 == "fire" || defT2 == "water" || defT2 == "rock" || defT2 == "dragon"){
             typeEffect /= 2;
         }
         else{}
         //Tests to see if the defending pokemon has a second type, or is a mono-type
         if(defT2 != ""){
         //If the defending pokemon has these types, the attack is effective and has its output multiplied by 2
-            if(defTypes.find("grass") != std::string::npos || defTypes.find("ice") != std::string::npos || defTypes.find("bug") != std::string::npos ||
-        defTypes.find("steel") != std::string::npos){
-            typeEffect *= 2;
-        }
+            if(defT2 == "grass" || defT2 == "ice" || defT2 == "bug" || defT2 == "steel"){
+                typeEffect *= 2;
+            }
         //If the defending pokemon has these types, the attack is effective and has its output multiplied by 0.5
-        else if(defTypes.find("fire") != std::string::npos || defTypes.find("water") != std::string::npos || defTypes.find("rock") != std::string::npos ||
-        defTypes.find("dragon") != std::string::npos){
-            typeEffect /= 2;
-        }
-        else{}
+            else if(defT2 == "fire" || defT2 == "water" || defT2 == "rock" || defT2 == "dragon"){
+                typeEffect /= 2;
+            }
+            else{}
         }
     }
     // cout << "Effect Calc: " << typeEffect << endl;
