@@ -66,6 +66,6 @@ double effectCalc(string attType, string defT1, string defT2){
             else{}
         }
     }
-    // cout << "Effect Calc: " << typeEffect << endl;
+    cout << "Effect Calc: " << typeEffect << endl;
     return typeEffect;
 }

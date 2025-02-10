@@ -1,0 +1,2 @@
+hellomake: main.cpp AttackArray.cpp PokemonArray.cpp miscFunctions.cpp attackCalc.cpp effectCalc.cpp
+	gcc -o hellomake main.cpp AttackArray.cpp PokemonArray.cpp miscFunctions.cpp attackCalc.cpp effectCalc.cpp -I
