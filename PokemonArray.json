@@ -2,5 +2,22 @@
     {"Name": "Venesaur", "Type1": 11, "Type2": 3, "HP": 80, "Attack": 82, "Defense": 83, "SpAttack": 100, "SpDefense": 100, "Speed": 80},
     {"Name": "Charizard", "Type1": 9, "Type2": 2, "HP": 78, "Attack": 84, "Defense": 78, "SpAttack": 109, "SpDefense": 85, "Speed": 100},
     {"Name": "Blastoise", "Type1": 10, "Type2": 18, "HP": 79, "Attack": 83, "Defense": 100, "SpAttack": 85, "SpDefense": 105, "Speed": 78},
-    {"Name": "Beedrill", "Type1": 6, "Type2": 3, "HP": 65, "Attack": 90, "Defense": 40, "SpAttack": 45, "SpDefense": 80, "Speed": 75}
+    {"Name": "Beedrill", "Type1": 6, "Type2": 3, "HP": 65, "Attack": 90, "Defense": 40, "SpAttack": 45, "SpDefense": 80, "Speed": 75},
+    {"Name": "Pidgeot", "Type1": 0, "Type2": 2, "HP": 83, "Attack": 80, "Defense": 75, "SpAttack": 70, "SpDefense": 70, "Speed": 101},
+    {"Name": "Raticate", "Type1": 0, "Type2": 18, "HP": 55, "Attack": 81, "Defense": 60, "SpAttack": 50, "SpDefense": 70, "Speed": 97},
+    {"Name": "Raichu", "Type1": 12, "Type2": 18, "HP": 60, "Attack": 90, "Defense": 55, "SpAttack": 90, "SpDefense": 80, "Speed": 110},
+    {"Name": "Nidoqueen", "Type1": 3, "Type2": 4, "HP": 90, "Attack": 92, "Defense": 87, "SpAttack": 75, "SpDefense": 85, "Speed": 76},
+    {"Name": "Nidoking", "Type1": 3, "Type2": 4, "HP": 82, "Attack": 102, "Defense": 77, "SpAttack": 85, "SpDefense": 75, "Speed": 85},
+    {"Name": "Clefable", "Type1": 17, "Type2": 18, "HP": 95, "Attack": 70, "Defense": 73, "SpAttack": 95, "SpDefense": 90, "Speed": 60},
+    {"Name": "Ninetales", "Type1": 9, "Type2": 18, "HP": 73, "Attack": 76, "Defense": 75, "SpAttack": 81, "SpDefense": 100, "Speed": 100},
+    {"Name": "Wigglytuff", "Type1": 0, "Type2": 17, "HP": 140, "Attack": 70, "Defense": 45, "SpAttack": 85, "SpDefense": 50, "Speed": 45},
+    {"Name": "Primeape", "Type1": 1, "Type2": 18, "HP": 65, "Attack": 105, "Defense": 60, "SpAttack": 60, "SpDefense": 70, "Speed": 95},
+    {"Name": "Machamp", "Type1": 1, "Type2": 3, "HP": 90, "Attack": 130, "Defense": 80, "SpAttack": 65, "SpDefense": 85, "Speed": 55},
+    {"Name": "Dewgong", "Type1": 10, "Type2": 14, "HP": 90, "Attack": 70, "Defense": 80, "SpAttack": 70, "SpDefense": 95, "Speed": 70},
+    {"Name": "Starmie", "Type1": 10, "Type2": 13, "HP": 60, "Attack": 75, "Defense": 85, "SpAttack": 100, "SpDefense": 85, "Speed": 115},
+    {"Name": "Mr.Mime", "Type1": 13, "Type2": 17, "HP": 40, "Attack": 45, "Defense": 65, "SpAttack": 100, "SpDefense": 120, "Speed": 90},
+    {"Name": "Jynx", "Type1": 14, "Type2": 13, "HP": 65, "Attack": 50, "Defense": 35, "SpAttack": 115, "SpDefense": 95, "Speed": 95},
+    {"Name": "Dragonite", "Type1": 15, "Type2": 2, "HP": 91, "Attack": 134, "Defense": 95, "SpAttack": 100, "SpDefense": 100, "Speed": 80},
+    {"Name": "Mew", "Type1": 13, "Type2": 18, "HP": 100, "Attack": 100, "Defense": 100, "SpAttack": 100, "SpDefense": 100, "Speed": 100},
+    {"Name": "Gengar", "Type1": 7, "Type2": 3, "HP": 60, "Attack": 65, "Defense": 60, "SpAttack": 130, "SpDefense": 75, "Speed": 110}
 ]
