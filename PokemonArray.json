@@ -1,0 +1,6 @@
+[
+    {"Name": "Venesaur", "Type1": 11, "Type2": 3, "HP": 80, "Attack": 82, "Defense": 83, "SpAttack": 100, "SpDefense": 100, "Speed": 80},
+    {"Name": "Charizard", "Type1": 9, "Type2": 2, "HP": 78, "Attack": 84, "Defense": 78, "SpAttack": 109, "SpDefense": 85, "Speed": 100},
+    {"Name": "Blastoise", "Type1": 10, "Type2": 18, "HP": 79, "Attack": 83, "Defense": 100, "SpAttack": 85, "SpDefense": 105, "Speed": 78},
+    {"Name": "Beedrill", "Type1": 6, "Type2": 3, "HP": 65, "Attack": 90, "Defense": 40, "SpAttack": 45, "SpDefense": 80, "Speed": 75}
+]
